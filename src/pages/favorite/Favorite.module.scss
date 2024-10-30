@@ -1,0 +1,9 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 50px;
+  .movie {
+    width: calc(100% / 4 - 25px);
+  }
+}

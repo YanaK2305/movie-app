@@ -1,0 +1,25 @@
+.root {
+  .categories {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 180px;
+    padding: 50px;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    &::after {
+      content: "Movies";
+      position: absolute;
+      left: 50px;
+      top: -20px;
+      padding: 10px 24px;
+      border-radius: 8px;
+      background: #e50000;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      color: white;
+    }
+  }
+}

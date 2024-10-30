@@ -1,0 +1,42 @@
+.root {
+  padding: 50px;
+  border-radius: 12px;
+  background: #1a1a1a;
+  border: 1px solid #262626;
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+      color: #999999;
+    }
+    .slider {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 52px;
+        height: 52px;
+        border-radius: 100px;
+        background: #141414;
+        border: 1px solid #262626;
+      }
+    }
+  }
+  .body {
+    margin-top: 30px;
+  }
+
+  .swiperImg {
+    width: 109px;
+    height: 109px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+}
